@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  border-radius: 7px;
+  padding: 5px;
+  background-color: #20e3f180;
+}
+
+.container {
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 50vw;
+}
+
+/* .square {
+  border-style: solid;
+} */
+
+.square.hovered {
+  background-color: #20e3f180;
+}
